@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "url": "http://schema.org/url",
+    "title": "http://schema.org/name",
+    "author": "http://schema.org/author",
+    "image": "http://schema.org/image",
+    "isbn": "http://schema.org/isbn",
+    "pages": {
+      "@id": "http://schema.org/numberOfPages",
+      "@type": "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "date": {
+      "@id": "http://schema.org/datePublished",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    }
+  }
+}
